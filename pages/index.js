@@ -1,5 +1,9 @@
 import React from 'react'
 
+import withRedux from "next-redux-wrapper";
+import {createStore} from "redux";
+
+
 export default class extends React.Component {
 
     constructor(props) {
